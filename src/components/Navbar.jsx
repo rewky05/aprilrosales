@@ -5,6 +5,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 import { Link } from "react-scroll";
+import April from "../assets/resume/april-resume.pdf"
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -86,20 +87,48 @@ const Navbar = () => {
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-700 text-gray-300">
-            <a href="/" />
-            Linkedin <FaLinkedin size={30} />
+            <a
+              className="mx-auto"
+              href="https://www.linkedin.com/in/aprilr05/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Linkedin
+            </a>
+            <FaLinkedin size={30} />
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] text-gray-300">
-            <a href="/" />
-            Github <FaGithub size={30} />
+            <a
+              className="mx-auto"
+              href="https://github.com/rewky05"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>
+            <FaGithub size={30} />
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0] text-gray-300">
-            <a href="/" />
-            Email <HiOutlineMail size={30} />
+            <a
+              className="mx-auto"
+              href="https://mail.google.com/mail/u/0/?fs=1&to=rosales.april65@gmail.com&tf=cm"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Email
+            </a>
+            <HiOutlineMail size={30} />
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] text-gray-300">
-            <a href="/" />
-            Resume <BsFillPersonLinesFill size={30} />
+            <a
+              className="mx-auto"
+              href={April}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
+            <BsFillPersonLinesFill size={30} />
           </li>
         </ul>
       </div>

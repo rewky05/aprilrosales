@@ -5,7 +5,7 @@ import CSS from '../assets/css.png'
 import JavaScript from '../assets/javascript.png'
 import ReactLogo from '../assets/react.png'
 import Tailwind from '../assets/tailwind.png'
-import Github from '../assets/github.png'
+import PHP from '../assets/php.png'
 
 const Skills = () => {
   return (
@@ -31,16 +31,16 @@ const Skills = () => {
                     <p className='my-4'>JAVASCRIPT</p>
                 </div>
                 <div className='shadow-md shadow-gray-400 hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto pt-3' src={PHP} alt='PHP' />
+                    <p className='my-4'>PHP</p>
+                </div>
+                <div className='shadow-md shadow-gray-400 hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto pt-3' src={ReactLogo} alt='ReactLogo' />
                     <p className='my-4'>REACTJS</p>
                 </div>
                 <div className='shadow-md shadow-gray-400 hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto pt-3' src={Tailwind} alt='Tailwind' />
                     <p className='my-4'>TAILWIND</p>
-                </div>
-                <div className='shadow-md shadow-gray-400 hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto pt-3' src={Github} alt='Github' />
-                    <p className='my-4'>GITHUB</p>
                 </div>
             </div>
         </div>
