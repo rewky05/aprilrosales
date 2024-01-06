@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aprilrosales/static/css/main.596deb90.css",
-    "main.js": "/aprilrosales/static/js/main.201349ac.js",
+    "main.js": "/aprilrosales/static/js/main.d2e368eb.js",
     "static/media/php.png": "/aprilrosales/static/media/php.aa680f57bf75b5d5acdc.png",
     "static/media/workImg.jpeg": "/aprilrosales/static/media/workImg.d8b43a2c77a76ea08341.jpeg",
     "static/media/april-resume.pdf": "/aprilrosales/static/media/april-resume.e20b320abaf7151cc028.pdf",
@@ -12,10 +12,10 @@
     "static/media/javascript.png": "/aprilrosales/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/aprilrosales/index.html",
     "main.596deb90.css.map": "/aprilrosales/static/css/main.596deb90.css.map",
-    "main.201349ac.js.map": "/aprilrosales/static/js/main.201349ac.js.map"
+    "main.d2e368eb.js.map": "/aprilrosales/static/js/main.d2e368eb.js.map"
   },
   "entrypoints": [
     "static/css/main.596deb90.css",
-    "static/js/main.201349ac.js"
+    "static/js/main.d2e368eb.js"
   ]
 }
