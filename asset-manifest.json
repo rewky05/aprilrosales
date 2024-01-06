@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aprilrosales/static/css/main.596deb90.css",
-    "main.js": "/aprilrosales/static/js/main.d2e368eb.js",
+    "main.css": "/aprilrosales/static/css/main.993ac43e.css",
+    "main.js": "/aprilrosales/static/js/main.0cb34e85.js",
     "static/media/php.png": "/aprilrosales/static/media/php.aa680f57bf75b5d5acdc.png",
     "static/media/workImg.jpeg": "/aprilrosales/static/media/workImg.d8b43a2c77a76ea08341.jpeg",
     "static/media/april-resume.pdf": "/aprilrosales/static/media/april-resume.e20b320abaf7151cc028.pdf",
@@ -11,11 +11,11 @@
     "static/media/css.png": "/aprilrosales/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/aprilrosales/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/aprilrosales/index.html",
-    "main.596deb90.css.map": "/aprilrosales/static/css/main.596deb90.css.map",
-    "main.d2e368eb.js.map": "/aprilrosales/static/js/main.d2e368eb.js.map"
+    "main.993ac43e.css.map": "/aprilrosales/static/css/main.993ac43e.css.map",
+    "main.0cb34e85.js.map": "/aprilrosales/static/js/main.0cb34e85.js.map"
   },
   "entrypoints": [
-    "static/css/main.596deb90.css",
-    "static/js/main.d2e368eb.js"
+    "static/css/main.993ac43e.css",
+    "static/js/main.0cb34e85.js"
   ]
 }
