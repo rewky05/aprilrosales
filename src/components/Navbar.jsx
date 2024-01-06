@@ -86,7 +86,7 @@ const Navbar = () => {
       {/* Social Icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-700 text-gray-300">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#114084] text-gray-300">
             <a
               className="mx-auto"
               href="https://www.linkedin.com/in/aprilr05/"
@@ -108,7 +108,7 @@ const Navbar = () => {
             </a>
             <FaGithub size={30} />
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0] text-gray-300">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3466AA] text-gray-300">
             <a
               className="mx-auto"
               href="https://mail.google.com/mail/u/0/?fs=1&to=rosales.april65@gmail.com&tf=cm"
