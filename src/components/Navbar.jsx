@@ -5,41 +5,41 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 import { Link } from "react-scroll";
-import April from "../assets/resume/april-resume.pdf"
+import April from "../assets/resume/april-resume.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-gray-300 text-black">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-gray-300 text-black select-none">
       <div>
         <h1 className="text-3xl font-bold">A.</h1>
       </div>
 
       {/* Menu */}
       <ul className="hidden md:flex">
-        <li>
+        <li className="after:content-[''] after:absolute after:w-[42px] after:h-[3px] after:bg-[#114084] after:rounded after:right-[320px] after:bottom-6 after:scale-x-0 after:transition-transform duration-1000 after:origin-right hover:after:scale-x-100 hover:after:origin-left">
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className="after:content-[''] after:absolute after:w-[45px] after:h-[3px] after:bg-[#114084] after:rounded after:right-[247px] after:bottom-6 after:scale-x-0 after:transition-transform duration-1000 after:origin-right hover:after:scale-x-100 hover:after:origin-left">
           <Link to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li>
+        <li className="after:content-[''] after:absolute after:w-[40px] after:h-[3px] after:bg-[#114084] after:rounded after:right-[179px] after:bottom-6 after:scale-x-0 after:transition-transform duration-1000 after:origin-right hover:after:scale-x-100 hover:after:origin-left">
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li>
+        <li className="after:content-[''] after:absolute after:w-[37px] after:h-[3px] after:bg-[#114084] after:rounded after:right-[112px] after:bottom-6 after:scale-x-0 after:transition-transform duration-1000 after:origin-right hover:after:scale-x-100 hover:after:origin-left">
           <Link to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li>
+        <li className="after:content-[''] after:absolute after:w-[52px] after:h-[3px] after:bg-[#114084] after:rounded after:right-[30px] after:bottom-6 after:scale-x-0 after:transition-transform duration-1000 after:origin-right hover:after:scale-x-100 hover:after:origin-left">
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
