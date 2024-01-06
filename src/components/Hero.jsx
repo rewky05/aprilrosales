@@ -20,10 +20,10 @@ const Hero = () => {
           responsive full-stack web applications.
         </p>
         <div>
-          <button className="border-2 px-6 py-3 my-2 outline-none hover:bg-gray-400 duration-300">
+          <button className="border-2 px-6 py-3 my-2 outline-none hover:bg-[#114084] hover:border-[#114084] hover:text-white duration-200">
             <Link className="group flex items-center" to="work" smooth={true} duration={500}>
               View Work
-              <span className="group-hover:rotate-90 duration-300">
+              <span className="group-hover:rotate-90 duration-200">
                 <HiArrowNarrowRight className="ml-3" />
               </span>
             </Link>
