@@ -1,6 +1,6 @@
 import React from 'react'
 import WorkImg from '../assets/projects/workImg.jpeg'
-
+import WashUp from '../assets/projects/washUp.jpg'
 
 const Work = () => {
   return (
@@ -20,13 +20,32 @@ const Work = () => {
                     {/* Hover Effect */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                            Amanviro Website
                         </span>
                         <div className='pt-8 text-center'>
                             <a href='https://rodcanete.github.io/' target="_blank" rel="noopener noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a href='https://github.com/RodCanete/RodCanete.github.io' target="_blank" rel="noopener noreferrer">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a> 
+                            
+                        </div>
+                    </div>
+                </div>
+                <div style={{backgroundImage: `url(${WashUp})`}} 
+                className='shadow-lg shadow-gray-500 group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* Hover Effect */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            Wash Up Laundry Website
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href='https://laundry-washup.netlify.app/' target="_blank" rel="noopener noreferrer">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href='https://github.com/rewky05/washup-laundry-new' target="_blank" rel="noopener noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a> 
                             
