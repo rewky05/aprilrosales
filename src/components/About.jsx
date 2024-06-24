@@ -20,7 +20,7 @@ const About = () => {
             <p className="text-lg">
               I'm passionate about improving my software development skills and
               creating meaningful solutions for various needs. While I've
-              completed just one academic project in web development, my
+              completed just three projects in web development, my
               enthusiasm drives me to expand my capabilities. What would you do
               if you had a dedicated software developer available at your
               fingertips?
